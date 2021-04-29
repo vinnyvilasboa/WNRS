@@ -1,0 +1,8 @@
+/* ///////////PAGE2//////// */
+
+<select id="questions" name="questions" form="questions"> 
+<option value="3">choose length of game</option>
+<option value="3">3 questions</option>
+<option value="6">6 questions</option>
+<option value="9">9 questions</option>
+</select>
