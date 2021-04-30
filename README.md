@@ -34,7 +34,7 @@ Each player (2 player) takes a turn asking or answering deep, funny, or interest
 ---
 
 # CODE SNIPPET
-` function navArray() {
+`function navArray() {
         let i = 0;
         let notification = document.createElement("P")
         notification.setAttribute("class", "notification")
@@ -47,7 +47,7 @@ Each player (2 player) takes a turn asking or answering deep, funny, or interest
             //set inner text for p tag
         pTag.innerText = `${questions[i]}`
             //append this to div on players.html
-        document.body.appendChild(pTag) `
+        document.body.appendChild(pTag)`
 
     ` } else if (i < questions.length - 1) {
                 i++
@@ -99,4 +99,8 @@ Before round 3 there will be instructions for the final card.
 ## Initial Wireframes:
 ![WIRE FRAME](PAGE1AND2.PNGE)
 ![WIRE FRAME 2](PAGE3.PNG)
+
+# Pictures of game
+![START PAGE](./wnrs1.png)
+![PLAYERS PAGE](./wnrs2.png)
 
