@@ -37,15 +37,23 @@ let formLocation = document.querySelector('#gameForm')
         notification.setAttribute("class", "notification")
         notification.innerText = `${playerAResult} is asking ${playerBResult} questions`
         document.body.prepend(notification)
+
         //create a P tag with DOM manipulation
+
         let pTag = document.createElement("P");
         pTag.setAttribute("class", "pTag")
         let pTagLocation = document.querySelector(".pTag")
+
         //set inner text for p tag
+
         pTag.innerText = `${questions[i]}`
+
         //append this to div on players.html
+
         document.body.appendChild(pTag)
+
         //create next (new question) button
+        
         let nextButton = document.createElement("button")
         nextButton.setAttribute("class", "nextButton")
         nextButton.innerText = "NEXT"

@@ -17,6 +17,7 @@ Player A starts asking Player B, and Player B responds verbally (no input field)
 ## Example
 1. *`Fork`* and *`Clone`* this respository to your local machine
 2. Open `index.html` in your browser to play  
+3. click [here](https://vinnyvilasboa.github.io/WNRS/) for live link
 
 ---
 # HOW IT WORKS
@@ -34,34 +35,7 @@ Each player (2 player) takes a turn asking or answering deep, funny, or interest
 ---
 
 # CODE SNIPPET
-`function navArray() {
-        let i = 0;
-        let notification = document.createElement("P")
-        notification.setAttribute("class", "notification")
-        notification.innerText = `${playerAResult} is asking ${playerBResult} questions`
-        document.body.prepend(notification)
-            //create a P tag with DOM manipulation
-        let pTag = document.createElement("P");
-        pTag.setAttribute("class", "pTag")
-        let pTagLocation = document.querySelector(".pTag")
-            //set inner text for p tag
-        pTag.innerText = `${questions[i]}`
-            //append this to div on players.html
-        document.body.appendChild(pTag)`
-
-    ` } else if (i < questions.length - 1) {
-                i++
-                if(i % 2 !== 0){
-                    notification.innerText = `${playerBResult} is asking ${playerAResult} questions`
-                    console.log("we are inside our nested if statement")
-                }else if (i % 2 === 0){
-                    notification.innerText = `${playerAResult} is asking ${playerBResult} questions`
-                }
-                pTag.innerText = questions[i]
-            }
-            
-        })
-    } `
+![code snippet](./code-snippet.png)
 
 ----
 # EXAMPLE: 
