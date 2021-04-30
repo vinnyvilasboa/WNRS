@@ -1,14 +1,14 @@
 # TITLE: WE'RE NOT REALLY STRANGERS
 
 # HOW TO PLAY
-###  STRUCTURE OF THE GAME 
+##  STRUCTURE OF THE GAME 
 The game is pretty straight forward, hit START to move on to a page for both players to add their NAMES. The game isn't about winning but the official purpose is to build better connections with people besides asking about their jobs, weather, or hobbies. 
 
 Player A starts asking Player B, and Player B responds verbally (no input field). Once next button is clicked, the script flips and it's player B asking the question and player A answers.
 
 ---
 
-## Start Up Screen:
+# Start Up Screen:
 - PAGE 1 - INTRODUCTION WITH QUICK INSTRUCTIONS
 - PAGE 2 - 2 players name
 - PAGE 3 - game play
@@ -32,6 +32,39 @@ But I made it into 1 level for now.
 
 Each player (2 player) takes a turn asking or answering deep, funny, or interesting questions until the end of the round is reach, if you want you can pass the phone to 2 other people and start over!
 
+# CODE SNIPPET
+```function navArray() {
+        let i = 0;
+        let notification = document.createElement("P")
+        notification.setAttribute("class", "notification")
+        notification.innerText = `${playerAResult} is asking ${playerBResult} questions`
+        document.body.prepend(notification)
+            //create a P tag with DOM manipulation
+        let pTag = document.createElement("P");
+        pTag.setAttribute("class", "pTag")
+        let pTagLocation = document.querySelector(".pTag")
+            //set inner text for p tag
+        pTag.innerText = `${questions[i]}`
+            //append this to div on players.html
+        document.body.appendChild(pTag)
+        
+    ```
+
+    ```
+    } else if (i < questions.length - 1) {
+                i++
+                if(i % 2 !== 0){
+                    notification.innerText = `${playerBResult} is asking ${playerAResult} questions`
+                    console.log("we are inside our nested if statement")
+                }else if (i % 2 === 0){
+                    notification.innerText = `${playerAResult} is asking ${playerBResult} questions`
+                }
+                pTag.innerText = questions[i]
+            }
+            
+        })
+    }
+    ```
 <!-- 
 ** Optional read --- extras to be added later
 3 Phases of connection that progressively gets deeper. 
@@ -49,7 +82,7 @@ Before round 3 there will be instructions for the final card.
 (piece of paper and pen/pencil needed). -->
 
 ----
-### EXAMPLE: 
+# EXAMPLE: 
 
 Player A: Asks question on screen
 Player B: Answers
