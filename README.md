@@ -9,10 +9,7 @@ Player A starts asking Player B, and Player B responds verbally (no input field)
 ---
 
 # Start Up Screen:
-- PAGE 1 - INTRODUCTION WITH QUICK INSTRUCTIONS
-- PAGE 2 - 2 players name
-- PAGE 3 - game play
-
+![START PAGE](./wnrs1.png)
 ---
 
 # HOW TO INSTALL
@@ -31,6 +28,9 @@ But I made it into 1 level for now.
 
 
 Each player (2 player) takes a turn asking or answering deep, funny, or interesting questions until the end of the round is reach, if you want you can pass the phone to 2 other people and start over!
+
+![GAME PAGE](./wnrs3.png)
+
 ---
 
 # CODE SNIPPET
@@ -101,6 +101,6 @@ Before round 3 there will be instructions for the final card.
 ![WIRE FRAME 2](PAGE3.PNG)
 
 # Pictures of game
-![START PAGE](./wnrs1.png)
 ![PLAYERS PAGE](./wnrs2.png)
+
 
