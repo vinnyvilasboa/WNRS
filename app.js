@@ -1,6 +1,5 @@
-let questions = ["What does my Instagram tell you about me?", "What compliment do you think I hear the most?", "Do I seem like more of a creative or analytical type? Explain"
+let questions = ["What does my Instagram tell you about me?", "What compliment do you think I hear the most?", "Do I seem like more of a creative or analytical type? Explain", "How many speeding tickets do you think I've gotten in my life?", "Finish the sentence: just by looking at you I'd think _____.", "Do I seem like a coffee or tea person? sweetened or unsweetened?", "What do you think my go to karaoke song is?", "If you were to buy me a present, knowing nothing about me other than what I look like what would it be?", "Do you think I've ever been fired from a job? If so, what for?", "Do you think I intimidate others? Why or Why not?"
 ]
-// console.log(questions);
 
 //We need to have a variable for each input, which will be our playerA and playerB. This will eventually store the user input.
 //Right now these are empty, but we've grabbed the location.
@@ -61,7 +60,7 @@ let formLocation = document.querySelector('#gameForm')
                 console.log("array is finished")
                 let returnHome = document.createElement("a")
                 returnHome.innerText = "START OVER"
-                returnHome.setAttribute("href", "./players.html")
+                returnHome.setAttribute("href", "./index.html")
                 document.body.appendChild(returnHome)
             } else if (i < questions.length - 1) {
                 i++

@@ -8,15 +8,14 @@
     - How to play
     - Start button
 - [x] center page
-- [] Make all pages then link them to each other by 3pm
-- [] Add buttons, submit field
+- [x] Make all pages then link them to each other by 3pm
+- [x] Add buttons, submit field
 - [] Add color and start properly everything (70ish % right, we'll fix it later.)
 - [] media queries 
-- store player input in a global variable input is retrieved through event listener
-- create array or questions for each player
+- [x] store player input in a global variable input is retrieved through event listener
+- [x] create array or questions for each player
 - iterate through questions, On each iteration a questions is asked when answer is submitted have something happen. Once you are finished continue to have next iteration. 
 
-# STEP 2 GAME PLAY
 
 
 
@@ -40,22 +39,22 @@ so following that logic i'm going to duplicate the page from the original HTML, 
 
 
 ### Requirements
- - [] Name
- - [] Game Name
- - [] Github Link
- - [] Live Site
+ - [x] Name
+ - [x] Game Name
+ - [x] Github Link
+ - [x] Live Site
  - [] Regrade
  - [] Status
- - [] Game is playable
- - [] Game is multiplayer (or AI or PVE)
- - [] Game is winnable
- - [] Winner/score is displayed (NO ALERTS)
- - [] Has directions - How to Play
- - [] Readme.md included and filled out
+ - [x] Game is playable
+ - [x] Game is multiplayer (or AI or PVE)
+ - [x] Game is winnable
+ - [x] Winner/score is displayed (NO ALERTS)
+ - [x] Has directions - How to Play
+ - [x] Readme.md included and filled out
  - [] Appropriate Use of GitHub (commits)
  - [] Deployed on Github Pages
- - [] DRY (Do Not Repeat Yourself) Code, Good Code Style
+ - [x] DRY (Do Not Repeat Yourself) Code, Good Code Style
  - [] Effort Put into Styling
- - [] Reset button
+ - [x] Reset button
  - [] Good collision detection/event triggers
 
